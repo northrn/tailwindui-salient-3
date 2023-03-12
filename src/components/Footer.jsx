@@ -60,7 +60,7 @@ export function Footer() {
             <form className="w-full max-w-md lg:col-span-5 lg:pt-2">
               <div className="flex gap-x-4">
                 <label htmlFor="email-address" className="sr-only">
-                  Email address
+                  Email addres
                 </label>
                 <input
                   id="email-address"
