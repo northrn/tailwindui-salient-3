@@ -36,7 +36,7 @@ export function Hero() {
       Most businesses have no repeatable system for consistently growing their customer base. We build a system for your business that consistently generates predictable lead flow and sales.
         </p>
       </p>
-      <div className="mt-10 flex justify-center gap-x-6 pb-8">
+      <div className="mt-10 flex justify-center gap-x-6">
         <Button href="/register"><span className='hero-text'>Book a demo now</span></Button>
         <Button
           href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"

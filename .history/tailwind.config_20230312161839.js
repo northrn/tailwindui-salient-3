@@ -24,9 +24,8 @@ module.exports = {
         '4xl': '2rem',
       },
       fontFamily: {
-        sans: ['PPFragment-SansRegular', ...defaultTheme.fontFamily.sans],
-        display: ['OhnoSoftieDemo-Bold', ...defaultTheme.fontFamily.sans],
-        medium: ['PPFragment-SansExtraBold', ...defaultTheme.fontFamily.sans],
+        sans: ['Inter', ...defaultTheme.fontFamily.sans],
+        display: ['OhnoSoftieDemo-Black', ...defaultTheme.fontFamily.sans],
       },
       maxWidth: {
         '2xl': '40rem',

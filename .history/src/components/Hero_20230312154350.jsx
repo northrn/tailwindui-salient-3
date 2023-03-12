@@ -12,8 +12,10 @@ import logoTuple from '@/images/logos/tuple.svg'
 export function Hero() {
   return (
     <Container className="pt-20 pb-16 text-center lg:pt-32">
-        <h1 className="mx-auto max-w-4xl text-5xl font-display tracking-tight text-slate-900 sm:text-7xl">
-          <span>Sales Systems{' '}</span>
+      <h1 className="mx-auto max-w-4xl font-display text-5xl font-medium tracking-tight text-slate-900 sm:text-7xl">
+        <h1 className='hero-header'>
+          Sales Systems{' '}
+        </h1>
         <span className="relative whitespace-nowrap text-emerald-600">
           <svg
             aria-hidden="true"
@@ -36,7 +38,7 @@ export function Hero() {
       Most businesses have no repeatable system for consistently growing their customer base. We build a system for your business that consistently generates predictable lead flow and sales.
         </p>
       </p>
-      <div className="mt-10 flex justify-center gap-x-6 pb-8">
+      <div className="mt-10 flex justify-center gap-x-6">
         <Button href="/register"><span className='hero-text'>Book a demo now</span></Button>
         <Button
           href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
@@ -51,8 +53,8 @@ export function Hero() {
           <span className="ml-3">Learn more</span>
         </Button>
       </div>
-      <div className="mx-auto flex justify-center pt-12">
-        <p className="max-w-2xl font-medium text-3xl text-slate-900">WE USE AN UNDISCOVERED, UNIQUE STRATEGY CALLED “TRIBE 100” THAT SKYROCKETS YOUR WEBSITE CONVERSION RATES…</p>
+      <div className="mx-auto flex py-6">
+        <h1 className="process">WE USE AN UNDISCOVERED, UNIQUE STRATEGY CALLED “TRIBE 100” THAT SKYROCKETS YOUR WEBSITE CONVERSION RATES…</h1>
       </div>
       <div className="mt-36 lg:mt-44">
         <p className="font-display text-base text-slate-900">

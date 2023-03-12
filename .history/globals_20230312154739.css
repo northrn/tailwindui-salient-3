@@ -1,0 +1,23 @@
+@font-face {
+  font-family: "OhnoSoftieDemo-Bold";
+  src: url("/fonts/OhnoSoftieDemo-Bold.otf");
+  font-family: "OhnoSoftieDemo-Black";
+  src: url("/fonts/OhnoSoftieDemo-Black.otf");
+  font-family: "PPFragment-GlareExtraBold";
+  src: url("/fonts/PPFragment-GlareExtraBold.otf");
+  font-family: "PPFragment-SansRegular";
+  src: url("/fonts/PPFragment-SansRegular.otf");
+}
+
+.hero-header {
+  font-family: "OhnoSoftieDemo-Black";
+
+}
+
+.hero-subheader {
+  font-family: "OhnoSoftieDemo-Bold";
+}
+
+.hero-text {
+  font-family: "PPFragment-SansRegular";
+}
